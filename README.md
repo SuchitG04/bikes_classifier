@@ -1,1 +1,1 @@
-# bikes_classifier
+# image_classifier_web
