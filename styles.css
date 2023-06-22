@@ -32,3 +32,21 @@ h1 {
   white-space: nowrap;
 }
 
+a {
+  color: #fc723c;
+  text-decoration: none;
+}
+
+p {
+  color: #b5e853;
+}
+
+p, a {
+  font-family: monospace;
+  text-align: center;
+}
+
+.logo {
+  height: 20px;
+  margin-bottom: -5px;
+}
