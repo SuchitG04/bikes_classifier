@@ -1,3 +1,7 @@
+:root {
+  color-scheme: dark;
+}
+
 body {
   background-color: #272525;
 }
@@ -27,3 +31,4 @@ h1 {
   overflow: auto;
   white-space: nowrap;
 }
+

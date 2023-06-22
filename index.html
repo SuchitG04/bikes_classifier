@@ -1,34 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles.css">
-  <title>Home</title>
-</head>
-<body>
-  <h1>
-    <ul>
-      <li>
-        <a href="index.html">HuggingFace Embeds Image Classifiers</a>
-      </li>
-    </ul>
-  </h1>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Home</title>
+  </head>
+  <body>
+    <h1>
+      <ul>
+        <li>
+          <a href="index.html">HuggingFace Embeds Image Classifiers</a>
+        </li>
+      </ul>
+    </h1>
 
-  <iframe
-  class="classifierFrame"
-	src="https://asquirous-bicycle-classifier.hf.space"
-	frameborder="0"
-	width="850"
-	height="450"
-></iframe>
+    <script
+    class="embed"
+    type="module"
+    src="https://gradio.s3-us-west-2.amazonaws.com/3.35.2/gradio.js"
+    ></script>
 
-<iframe
-	src="https://asquirous-bicycle-classifier.hf.space"
-	frameborder="0"
-	width="850"
-	height="450"
-></iframe>
+    <gradio-app src="https://asquirous-bicycle-classifier.hf.space"></gradio-app>
 
-</body>
+    <script
+      type="module"
+      src="https://gradio.s3-us-west-2.amazonaws.com/3.35.2/gradio.js"
+    ></script>
+
+    <gradio-app src="https://asquirous-tv-desktop-classifier-duplicate.hf.space"></gradio-app>
+
+  </body>
 </html>
