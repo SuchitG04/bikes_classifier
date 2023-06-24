@@ -26,7 +26,8 @@ h1 a {
 }
 
 h1 {
-  margin: -20px;
+  font-size: 3vw;
+  margin: 10px -20px;
   text-align: center;
   overflow: auto;
   white-space: nowrap;
